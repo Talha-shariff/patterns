@@ -40,6 +40,79 @@ class FirstPattern{
         }
     }
     public void pat6(){
+        for(int i=0; i<5; i++){
+            // space
+            for(int j=0; j<5-i-1; j++){
+                System.out.print( " ");
+            }
+            // stars
+            for(int j=0; j<2*i+1; j++){
+                System.out.print( "*");
+            }
+            // space
+            for(int j=0; j<5-i-1; j++){
+                System.out.print( " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat7(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat8(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat9(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat10(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat11(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat12(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat13(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void pat14(){
         for(int i=1; i<=5; i++){
             for(int j=1; j<5-i+1; j++){
                 System.out.print(j + " ");
