@@ -95,7 +95,7 @@ class FirstPattern{
         }
     }
     public void pat10(){
-        int s = 1;
+        int s ;
         for(int i=0; i<=5; i++){
             if(i%2==0){
                 s=1;
@@ -110,9 +110,18 @@ class FirstPattern{
         }
     }
     public void pat11(){
-        for(int i=1; i<=5; i++){
-            for(int j=1; j<5-i+1; j++){
-                System.out.print(j + " ");
+          for(int i=1; i<5; i++){
+            // number
+            for(int j=1; j<=i; j++){
+                System.out.print(j);
+            }
+            // space
+            for(int j=1; j<=2*(4-i); j++){
+                System.out.print( " ");
+            }
+            // number
+            for(int j=i; j>=1; j--){
+                System.out.print( j );
             }
             System.out.println();
         }
@@ -153,6 +162,7 @@ public class Patt1{
         //  obj.pat6();
         //  obj.pat7();
         //   obj.pat9();
-          obj.pat10();
+        //   obj.pat10();
+          obj.pat11();
     }
 }
