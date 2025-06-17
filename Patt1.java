@@ -138,7 +138,7 @@ public class Patt1{
         //  obj.pat3();
         //  obj.pat4();
         //  obj.pat5();
-        //  obj.pat6();
+         obj.pat6();
          obj.pat7();
     }
 }
