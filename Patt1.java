@@ -39,6 +39,14 @@ class FirstPattern{
             System.out.println();
         }
     }
+    public void pat6(){
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<5-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
 }
 public class Patt1{
     public static void main(String[] args) {
@@ -47,6 +55,7 @@ public class Patt1{
         //  obj.pat2();
         //  obj.pat3();
         //  obj.pat4();
-         obj.pat5();
+        //  obj.pat5();
+         obj.pat6();
     }
 }
