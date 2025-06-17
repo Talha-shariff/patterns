@@ -57,21 +57,30 @@ class FirstPattern{
         }
     }
     public void pat7(){
-        for(int i=1; i<=5; i++){
-            for(int j=1; j<5-i+1; j++){
-                System.out.print(j + " ");
+        for(int i=0; i<5; i++){
+            // space
+            for(int j=0; j<i; j++){
+                System.out.print( " ");
+            }
+            // stars
+            for(int j=0; j<2*5-(2*i+1); j++){
+                System.out.print( "*");
+            }
+            // space
+            for(int j=0; j<i; j++){
+                System.out.print( " ");
             }
             System.out.println();
         }
     }
-    public void pat8(){
-        for(int i=1; i<=5; i++){
-            for(int j=1; j<5-i+1; j++){
-                System.out.print(j + " ");
-            }
-            System.out.println();
-        }
-    }
+    // public void pat8(){
+    //     for(int i=1; i<=5; i++){
+    //         for(int j=1; j<5-i+1; j++){
+    //             System.out.print(j + " ");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
     public void pat9(){
         for(int i=1; i<=5; i++){
             for(int j=1; j<5-i+1; j++){
@@ -129,6 +138,7 @@ public class Patt1{
         //  obj.pat3();
         //  obj.pat4();
         //  obj.pat5();
-         obj.pat6();
+        //  obj.pat6();
+         obj.pat7();
     }
 }
