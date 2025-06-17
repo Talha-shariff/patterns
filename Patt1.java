@@ -82,10 +82,15 @@ class FirstPattern{
     //     }
     // }
     public void pat9(){
-        for(int i=1; i<=5; i++){
-            for(int j=1; j<5-i+1; j++){
-                System.out.print(j + " ");
-            }
+         
+        for(int i=0; i<=2*5-1; i++){
+            int stars = i;
+            // star values is updated with reduction
+            if(i>5) stars = 2*5-i;
+                for(int j=0; j<stars; j++){
+                    //  here the j prints the star var value
+                    System.out.print( "*");
+                } 
             System.out.println();
         }
     }
@@ -138,7 +143,8 @@ public class Patt1{
         //  obj.pat3();
         //  obj.pat4();
         //  obj.pat5();
-         obj.pat6();
-         obj.pat7();
+        //  obj.pat6();
+        //  obj.pat7();
+          obj.pat9();
     }
 }
