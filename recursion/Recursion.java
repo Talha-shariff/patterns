@@ -1,13 +1,13 @@
 public class Recursion {
     static int count = 0;
-    static void print(){
+    static void iterate(){
         if(count == 5) return;
         System.out.println(count);
         count++;
-        print();
+        iterate();
 
     }
     public static void main(String[] args) {
-        print();
+        iterate();
     }
 }
