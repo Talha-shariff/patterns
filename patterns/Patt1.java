@@ -1,5 +1,5 @@
 class FirstPattern{
-    public void pat(){
+    public void pattern(){
         for(int i=0; i<5; i++){
             for(int j=0; j<5; j++){
                 System.out.print(" * ");
@@ -7,7 +7,7 @@ class FirstPattern{
             System.out.println();
         }
     }
-    public void pat2(){
+    public void pattern2(){
         for(int i=0; i<5; i++){
             for(int j=0; j<=i; j++){
                 System.out.print(" * ");
@@ -15,7 +15,7 @@ class FirstPattern{
             System.out.println();
         }
     }
-    public void pat3(){
+    public void pattern3(){
         for(int i=1; i<5; i++){
             for(int j=1; j<=i; j++){
                 System.out.print(j + "  ");
