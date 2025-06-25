@@ -23,7 +23,7 @@ class FirstPattern{
             System.out.println();
         }
     }
-    public void pat4(){
+    public void patttern4(){
         for(int i=1; i<=5; i++){
             for(int j=1; j<=i; j++){
                 System.out.print(i + "  ");
@@ -31,7 +31,7 @@ class FirstPattern{
             System.out.println();
         }
     }
-    public void pat5(){
+    public void patttern5(){
         for(int i=1; i<=5; i++){
             for(int j=1; j<5-i+1; j++){
                 System.out.print( " * ");
@@ -39,7 +39,7 @@ class FirstPattern{
             System.out.println();
         }
     }
-    public void pat6(){
+    public void patttern6(){
         for(int i=0; i<5; i++){
             // space
             for(int j=0; j<5-i-1; j++){
