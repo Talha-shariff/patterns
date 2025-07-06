@@ -8,7 +8,7 @@ public class Fact {
 return n*fact(n-1);
     }
     public static void main(String[] args) {
-        int n =9;
+        int n =12;
         System.out.print(factorial(n));
     }
 }
