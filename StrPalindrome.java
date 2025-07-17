@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class StrPalindrome {
-static boolean palindrome(int i, String s){
+static boolean stringPalindrome(int i, String s){
     if(i>=s.length()/2){
         return true;
     }
@@ -24,6 +24,6 @@ public static void main(String[] args) {
     System.out.println("enter the string to check if palindrome : ");
     String s = sc.next();
     // String s = "madama";
-    System.out.println(palindrome(0, s));
+    System.out.println(stringPalindrome(0, s));
 }
 }
