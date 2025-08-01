@@ -41,6 +41,16 @@ public class MissArray {
         int miss = sum-s2;
         return miss;
 }
+        //optimal approach using the xor logic
+        int n = nums.length;
+        int xor1=0, xor2=0;
+      for(int i=0; i<=n-1; i++){
+        xor2^= nums[i];
+        xor1^= (i+1);
+      }
+     
+     return(xor1 ^ xor2);     
+}
     */
 
     public static void main(String args[]) {
