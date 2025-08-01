@@ -1,41 +1,39 @@
-import java.util.*;
 
 public class MissArray {
-    public static int missingNumber(int []a, int N) {
-
-        // Outer loop that runs from 1 to N:
-        for (int i = 1; i <= N; i++) {
-
-            // flag variable to check
-            //if an element exists
-            int flag = 0;
-
-            //Search the element using linear search:
-            for (int j = 0; j < N - 1; j++) {
-                if (a[j] == i) {
-
-                    // i is present in the array:
-                    flag = 1;
+    public static int missingNumber(int []nums, int n) {
+//  int n=nums.length;
+        for(int i=1; i<=n; i++){
+            int flag =0 ;
+            for(int j=0; j<n-1; j++){
+                if(nums[j]==i){
+                    flag =1;
                     break;
                 }
             }
-
-            // check if the element is missing
-            //i.e flag == 0:
-
-            if (flag == 0) return i;
+                if(flag==0)
+                return i;
         }
-
-        // The following line will never execute.
-        // It is just to avoid warnings.
-        return -1;
-    }
+            return -1;
+}
+    //optimal solution 1 is where we doing the sum{
+    /*
+     * public int missingNumber(int[] nums) {
+        int n=nums.length;
+        int sum = (n*(n+1))/2;
+        int s2 =0;
+        for(int num : nums){
+            s2+=num;
+        }
+        int miss = sum-s2;
+        return miss;
+}
+    */
 
     public static void main(String args[]) {
-        int N = 5;
-        int a[] = {1, 2, 4, 5};
+        int n = 5;
+        int nums[] = {1, 2, 4, 5};
 
-        int ans = missingNumber(a, N);
+        int ans = missingNumber(nums, n);
         System.out.println("The missing number is: " + ans);
     }
 
