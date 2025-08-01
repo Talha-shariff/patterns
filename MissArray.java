@@ -15,6 +15,20 @@ public class MissArray {
         }
             return -1;
 }
+/* code using the better approach which uses the hashmaps
+ *       int n = nums.length;
+       int hash[] = new int[n+1];
+       for(int i=0; i<=n-1; i++){
+        hash[nums[i]]++;
+       }
+       for(int i=0; i<=n; i++){
+        if(hash[i]==0){
+            return i ;
+        }
+       }
+       return -1;
+}
+*/
     //optimal solution 1 is where we doing the sum{
     /*
      * public int missingNumber(int[] nums) {
