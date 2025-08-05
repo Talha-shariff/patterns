@@ -54,8 +54,8 @@ public class MissArray {
     */
 
     public static void main(String args[]) {
-        int n = 5;
-        int nums[] = {1, 2, 4, 5};
+        int n = 8;
+        int nums[] = {1, 2, 4, 5,7,8,10};
 
         int ans = missingNumber(nums, n);
         System.out.println("The missing number is: " + ans);
