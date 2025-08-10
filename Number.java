@@ -1,5 +1,5 @@
 public class Number {
-    static int findMaxOne(int nums[]){
+    static int findMaxOneNumber(int nums[]){
         int xor =0;
         for(int i=0; i<nums.length; i++){
             xor =  xor ^ nums[i];
@@ -8,8 +8,12 @@ public class Number {
     }
     public static void main(String[] args) {
         int nums[] ={1,1,2,3,3,5,5};
-        int ans = findMaxOne(nums);
+        int ans = findMaxOneNumber(nums);
         System.out.println("the number which appers once is : " +ans);
     }
     
 }
+// here the xor is used coz
+// xor of same number is 0
+// and the single number remains 
+// then 0 ^ 2=2 .. hence optimal sol
