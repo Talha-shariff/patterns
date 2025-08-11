@@ -1,6 +1,6 @@
 
 public class MissArray {
-    public static int missingNumber(int []nums, int n) {
+    public static int findmissingNumber(int []nums, int n) {
 //  int n=nums.length;
         for(int i=1; i<=n; i++){
             int flag =0 ;
@@ -57,7 +57,7 @@ public class MissArray {
         int n = 8;
         int nums[] = {1, 2, 4, 5,7,8,10};
 
-        int ans = missingNumber(nums, n);
+        int ans = findmissingNumber(nums, n);
         System.out.println("The missing number is: " + ans);
     }
 
