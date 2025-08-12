@@ -13,7 +13,7 @@ public class ConsOne {
         return maxi;
     }
     public static void main(String[] args) {
-        int nums[]={1,0,1,1,1,1,1,0,1,1};
+        int nums[]={1,0,1,1,1,1,1,0,1,1,1,1,0,0,1,1};
         int ans = findMaxConsOne(nums);
         System.out.println("the max number of consecutive ones is : "+ans);
     }
