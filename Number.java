@@ -1,13 +1,13 @@
 public class Number {
-    static int findMaxOneNumber(int nums[]){
+    static int findMaxOneNumber(int arr[]){
         int xor =0;
-        for(int i=0; i<nums.length; i++){
+        for(int i=0; i<arr.length; i++){
             xor =  xor ^ nums[i];
         }
         return xor;
     }
     public static void main(String[] args) {
-        int nums[] ={1,1,2,3,3,5,5};
+        int arr[] ={1,1,2,3,3,5,5};
         int ans = findMaxOneNumber(nums);
         System.out.println("the number which appers once is : " +ans);
     }
